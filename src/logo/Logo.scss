@@ -1,0 +1,50 @@
+#logo-img {
+  border-color: #3d3d3d !important;
+  border-radius: 50%;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+  #logo-img {
+    border: 0.5rem solid;
+    width: 10rem;
+  }
+}
+
+/* Tablets, portrait mode, 720p monitors */
+@media (min-width: 768px) and (max-width: 1920px) {
+  #logo-img {
+    border: 0.7rem solid;
+    width: 15rem;
+  }
+}
+
+/* 1080p monitors */
+@media (min-width: 1920px) and (max-width: 2560px) {
+  #logo-img {
+    border: 0.9rem solid;
+    width: 17.5rem;
+  }
+}
+
+/* 2k monitors */
+@media (min-width: 2560px) and (max-width: 3840px) {
+  #logo-img {
+    border: 1rem solid;
+    width: 20rem;
+  }
+}
+
+/* 4k+ monitors */
+@media (min-width: 3840px) {
+  #logo-img {
+    border: 2rem solid;
+    width: 35rem;
+  }
+}
